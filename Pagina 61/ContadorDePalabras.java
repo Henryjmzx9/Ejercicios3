@@ -3,12 +3,14 @@ import java.util.Scanner;
 public class ContadorDePalabras {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        String textoIngresado;
+        int totalPalabras;
         System.out.println("Contador de Palabras");
         System.out.println("=====================================");
         System.out.print("Escribe una frase: ");
-        String textoIngresado = scanner.nextLine();
+        textoIngresado = scanner.nextLine();
 
-        int totalPalabras = contarCantidadDePalabras(textoIngresado);
+        totalPalabras = contarCantidadDePalabras(textoIngresado);
 
         System.out.println("La cantidad de palabras es: " + totalPalabras);
 

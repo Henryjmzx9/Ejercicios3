@@ -3,11 +3,12 @@ import java.util.Scanner;
 public class EliminarUltimaPalabra {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        String frase;
+        String fraseSinUltima;
         System.out.print("Ingresa una frase: ");
-        String frase = scanner.nextLine();
+        frase = scanner.nextLine();
 
-        String fraseSinUltima = eliminarUltimaPalabra(frase);
+        fraseSinUltima = eliminarUltimaPalabra(frase);
 
         System.out.println("Frase sin la última palabra: " + fraseSinUltima);
 
