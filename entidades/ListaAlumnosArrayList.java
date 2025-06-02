@@ -2,7 +2,7 @@ package entidades;
 
 import java.util.ArrayList;
 
-public class Main {
+public class ListaAlumnosArrayList {
     public static void main(String[] args) {
         ArrayList<Alumno> listaAlumnos = new ArrayList<>();
 
