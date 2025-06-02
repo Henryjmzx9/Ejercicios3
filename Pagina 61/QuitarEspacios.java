@@ -1,4 +1,3 @@
-package utilerias;
 import java.util.Scanner;
 
 public class QuitarEspacios {
