@@ -4,14 +4,11 @@ public class PrimeraLetraMayuscula {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Solicitar una frase al usuario
         System.out.print("Ingresa una frase: ");
         String frase = scanner.nextLine();
 
-        // Convertir la frase
         String fraseConvertida = convertirMayusculas(frase);
 
-        // Mostrar el resultado
         System.out.println("Frase con mayúsculas: " + fraseConvertida);
 
         scanner.close();
